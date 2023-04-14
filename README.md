@@ -87,7 +87,7 @@ To accomplish the required behaviour, we can use a combination of a HashMap and 
 
 
 ## Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you find a bug or have a suggestion for improvement.
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you find a bug or have a suggestion for improvement. Currently it only supports LRU Replacement Policy, other policies can be implmented by implementing the [EvictionPolicy](https://github.com/duttabhishek0/ThreadSafe-LRUCache/blob/master/src/Interface/EvictionPolicy.java) Interface. 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/duttabhishek0/ThreadSafe-LRUCache/blob/master/LICENSE) file for details.
